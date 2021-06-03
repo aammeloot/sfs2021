@@ -58,6 +58,3 @@ msg['To'] = 'aurelien@localhost'
 serv = smtplib.SMTP('localhost')
 serv.send_message(msg)
 serv.quit()
-
-
-
